@@ -1,0 +1,184 @@
+.paintingPage {
+  margin: 24px auto 0 auto;
+  width: 327px;
+  height: 895px;
+  position: relative;
+}
+.galleryBox {
+  width: 152px;
+  height: 39px;
+  display: inline-flex;
+  padding-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  transition: 250ms;
+}
+.paintingImage {
+  max-width: 100%;
+}
+.galleryBox:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.galleryBoxIcon {
+  width: 12px;
+  height: 12px;
+}
+.galleryBoxText {
+  color: var(--text-alternative);
+  opacity: 1;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.143px;
+}
+.headingsBox {
+  width: 280px;
+  height: 133px;
+  position: absolute;
+  top: 230px;
+  left: 0;
+  background-color: var(--bg-primary);
+}
+.headingName {
+  margin: 24px auto 0 24px;
+  width: 232px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.headingArtist {
+  margin: 8px auto 0 24px;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+.artistImage {
+  width: 64px;
+  position: absolute;
+  top: 104px;
+  left: 16px;
+}
+.paintingYear {
+  position: absolute;
+  top: 366px;
+  right: 0;
+  color: var(--text-third);
+  font-size: 100px;
+}
+.paintingDescription {
+  position: relative;
+  margin-top: 172px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+.paintingSource {
+  position: absolute;
+  margin-top: 40px;
+  color: var(--text-secondary);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.929px;
+  transition: 250ms;
+}
+.paintingSource:hover {
+  color: var(--text-primary);
+}
+.modalPainting {
+  max-width: 327px;
+}
+
+@media screen and (min-width: 768px) {
+  .paintingPage {
+    margin-top: 40px;
+    width: 688px;
+    height: 1002px;
+  }
+  .galleryBox {
+    top: 504px;
+  }
+  .paintingImage {
+    width: 475px;
+    height: 560px;
+    object-fit: cover;
+  }
+  .headingsBox {
+    width: 445px;
+    height: unset;
+    top: 0;
+    left: unset;
+    right: 0;
+  }
+  .headingName {
+    margin: 0 auto 0 65px;
+    width: 380px;
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .headingArtist {
+    margin: 24px auto 67px 65px;
+  }
+  .artistImage {
+    width: 128px;
+    top: unset;
+    left: 262px;
+    bottom: -128px;
+  }
+  .paintingYear {
+    top: 624px;
+    right: 212px;
+    font-size: 200px;
+    line-height: 150px;
+  }
+  .paintingDescription {
+    margin: 139px auto 0 auto;
+    width: 457px;
+  }
+  .paintingSource {
+    margin: 50px auto auto 116px;
+  }
+  .modalPainting {
+    max-width: 688px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .paintingPage {
+    margin-top: 100px;
+    width: 1360px;
+    height: 624px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 410px;
+  }
+  .headingsBox {
+    right: 505px;
+  }
+  .headingName {
+    width: 300px;
+  }
+  .artistImage {
+    bottom: unset;
+    top: 496px;
+    left: 96px;
+  }
+  .paintingYear {
+    top: 0;
+    right: 0;
+  }
+  .paintingDescription {
+    margin: 115px auto 0 auto;
+    width: 355px;
+  }
+  .paintingSource {
+    margin: 81px auto 0 0;
+  }
+  .modalPainting {
+    max-width: 1360px;
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+  /* Text Colors */
+  --text-primary: #000000;
+  --text-secondary: #7d7d7d;
+  --text-third: #f3f3f3;
+  --text-alternative: #ffffff;
+
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #000000;
+
+  /* Button Colors */
+  --btn-primary: #000000;
+  --btn-secondary: #d8d8d8;
+
+  /* Line Colors */
+  --line-primary: #e5e5e5;
+  --line-secondary: #000000;
+}
