@@ -27,7 +27,7 @@ export const Header = () => {
     <>
       <header>
         <div className={css.header}>
-          <Link to="/">
+          <Link to="/" aria-label="Homepage">
             <Logo className={css.headerLogo} />
           </Link>
           <p
