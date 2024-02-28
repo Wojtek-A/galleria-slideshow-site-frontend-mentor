@@ -15,13 +15,9 @@ export const Gallery = () => {
             <motion.div
               key={index}
               className={css.painting}
-              initial={{ scale: 0 }}
-              animate={{ rotate: 360, scale: 1 }}
-              transition={{
-                type: 'spring',
-                stiffness: 260,
-                damping: 20,
-              }}
+              initial={{ scale: 0.5, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ ease: 'easeOut', duration: 0.5 }}
             >
               <Link to={`/painting%description`} state={{ nr: index }}>
                 <img
