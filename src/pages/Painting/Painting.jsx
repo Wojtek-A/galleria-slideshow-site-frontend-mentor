@@ -37,7 +37,7 @@ export const Painting = () => {
           >
             <img
               className={css.modalPainting}
-              src={`src${data.images.gallery}`}
+              src={`${data.images.gallery}`}
               alt={`${data.name}`}
             />
           </Modal>
@@ -46,13 +46,13 @@ export const Painting = () => {
             <h3 className={css.headingArtist}>{data.artist.name}</h3>
             <img
               className={css.artistImage}
-              src={`src${data.artist.image}`}
+              src={`${data.artist.image}`}
               alt={`${data.artist.name}`}
             />
           </div>
           <img
             className={css.paintingImage}
-            src={`src${showImage()}`}
+            src={`${showImage()}`}
             alt={`painting ${data.name}`}
           />
           <h2 className={css.paintingYear}>{data.year}</h2>

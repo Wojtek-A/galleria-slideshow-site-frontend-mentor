@@ -35,7 +35,7 @@ Users should be able to:
 - Solution URL:
   [https://github.com/Wojtek-A/galleria-slideshow-site-frontend-mentor]
 - Live Site URL:
-  [https://wojtek-a.github.io/galleria-slideshow-site-frontend-mentor/]
+  [https://galleria-slideshow-site-wa.netlify.app/]
 
 ## My process
 

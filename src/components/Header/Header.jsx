@@ -19,7 +19,7 @@ export const Header = () => {
     }
     const newIntervalId = setInterval(() => {
       changePaintingNrNext();
-    }, 5000);
+    }, 3000);
     setIntervalId(newIntervalId);
   };
 

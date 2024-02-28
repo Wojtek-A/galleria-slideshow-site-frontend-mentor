@@ -26,7 +26,7 @@ export const Gallery = () => {
               <Link to={`/painting%description`} state={{ nr: index }}>
                 <img
                   className={css.paintingImg}
-                  src={`src${data.images.thumbnail}`}
+                  src={`${data.images.thumbnail}`}
                   alt={`painting ${data.name}`}
                 />
                 <div className={css.paintingGradiend}></div>
