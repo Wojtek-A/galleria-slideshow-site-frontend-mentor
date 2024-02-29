@@ -15,15 +15,16 @@ export const Gallery = () => {
             <motion.div
               key={index}
               className={css.painting}
-              initial={{ scale: 0.5, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
+              initial={{ scale: 0.5 }}
+              animate={{ scale: 1 }}
               transition={{ ease: 'easeOut', duration: 0.5 }}
             >
-              <Link to={`/painting%description`} state={{ nr: index }}>
+              <Link to={`/detail`} state={{ nr: index }}>
                 <img
                   className={css.paintingImg}
                   src={`${data.images.thumbnail}`}
                   alt={`painting ${data.name}`}
+                  height={`${data.height}`}
                 />
                 <div className={css.paintingGradiend}></div>
                 <h2 className={css.paintingHeading}>{data.name}</h2>
@@ -31,7 +32,6 @@ export const Gallery = () => {
               </Link>
             </motion.div>
           ))}
-          {/* </motion.ul> */}
         </Masonry>
       </ResponsiveMasonry>
       <h1 className={css.mainHeading}>galleria.</h1>

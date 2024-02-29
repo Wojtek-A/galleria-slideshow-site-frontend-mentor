@@ -4,37 +4,8 @@
   height: 895px;
   position: relative;
 }
-.galleryBox {
-  width: 152px;
-  height: 39px;
-  display: inline-flex;
-  padding-bottom: 1px;
-  justify-content: center;
-  align-items: center;
-  gap: 14px;
-  background-color: rgb(0, 0, 0, 0.7);
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  transition: 250ms;
-}
 .paintingImage {
   max-width: 100%;
-}
-.galleryBox:hover {
-  cursor: pointer;
-  background-color: rgb(0, 0, 0, 0.2);
-}
-.galleryBoxIcon {
-  width: 12px;
-  height: 12px;
-}
-.galleryBoxText {
-  color: var(--text-alternative);
-  opacity: 1;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 2.143px;
 }
 .headingsBox {
   width: 280px;
@@ -89,18 +60,12 @@
 .paintingSource:hover {
   color: var(--text-primary);
 }
-.modalPainting {
-  max-width: 327px;
-}
 
 @media screen and (min-width: 768px) {
   .paintingPage {
     margin-top: 40px;
     width: 688px;
     height: 1002px;
-  }
-  .galleryBox {
-    top: 504px;
   }
   .paintingImage {
     width: 475px;
@@ -142,9 +107,6 @@
   .paintingSource {
     margin: 50px auto auto 116px;
   }
-  .modalPainting {
-    max-width: 688px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -177,8 +139,5 @@
   }
   .paintingSource {
     margin: 81px auto 0 0;
-  }
-  .modalPainting {
-    max-width: 1360px;
   }
 }

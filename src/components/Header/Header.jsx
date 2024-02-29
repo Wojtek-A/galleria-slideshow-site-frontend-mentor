@@ -11,7 +11,7 @@ export const Header = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/painting%description`);
+    navigate(`/detail`);
     if (intervalId) {
       clearInterval(intervalId);
       setIntervalId(0);

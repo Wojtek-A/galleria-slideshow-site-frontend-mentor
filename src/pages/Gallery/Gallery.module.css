@@ -55,8 +55,10 @@
     margin-bottom: 40px;
     width: 324px;
   }
+  .paintingImg {
+    width: 324px;
+  }
   .paintingGradiend {
-    bottom: -2px;
     width: 324px;
   }
   .paintingHeading {
@@ -70,22 +72,20 @@
     width: 1400px;
   }
   .painting {
-    margin-bottom: 53px;
+    margin-bottom: 40px;
     width: 310px;
   }
   .paintingImg {
     width: 310px;
-    height: 105%;
     object-fit: cover;
   }
   .paintingGradiend {
     width: 310px;
-    bottom: -13px;
   }
   .paintingHeading {
-    bottom: 43px;
+    bottom: 57px;
   }
   .paintingText {
-    bottom: 17px;
+    bottom: 32px;
   }
 }

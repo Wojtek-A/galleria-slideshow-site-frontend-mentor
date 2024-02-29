@@ -15,7 +15,8 @@
         "large": "assets/images/starry-night/hero-large.jpg"
       },
       "gallery": "assets/images/starry-night/gallery.jpg"
-    }
+    },
+    "height":"250"
   },
   {
     "name": "Girl with a Pearl Earring",
@@ -33,7 +34,8 @@
         "large": "assets/images/girl-with-pearl-earring/hero-large.jpg"
       },
       "gallery": "assets/images/girl-with-pearl-earring/gallery.jpg"
-    }
+    },
+    "height":"400"
   },
   {
     "name": "Guernica",
@@ -51,7 +53,8 @@
         "large": "assets/images/guernica/hero-large.jpg"
       },
       "gallery": "assets/images/guernica/gallery.jpg"
-    }
+    },
+    "height":"285"
   },
   {
     "name": "Penitent Magdalene",
@@ -69,7 +72,8 @@
         "large": "assets/images/penitent-magdalene/hero-large.jpg"
       },
       "gallery": "assets/images/penitent-magdalene/gallery.jpg"
-    }
+    },
+    "height":"250"
   },
   {
     "name": "The Storm on the Sea of Galilee",
@@ -87,7 +91,8 @@
         "large": "assets/images/the-storm-on-the-sea-of-galilee/hero-large.jpg"
       },
       "gallery": "assets/images/the-storm-on-the-sea-of-galilee/gallery.jpg"
-    }
+    },
+    "height":"340"
   },
   {
     "name": "The Great Wave off Kanagawa",
@@ -105,7 +110,8 @@
         "large": "assets/images/the-great-wave-off-kanagawa/hero-large.jpg"
       },
       "gallery": "assets/images/the-great-wave-off-kanagawa/gallery.jpg"
-    }
+    },
+    "height":"280"
   },
   {
     "name": "Van Gogh \nself-portrait",
@@ -123,7 +129,8 @@
         "large": "assets/images/van-gogh-self-portrait/hero-large.jpg"
       },
       "gallery": "assets/images/van-gogh-self-portrait/gallery.jpg"
-    }
+    },
+    "height":"500"
   },
   {
     "name": "The Sleeping Gypsy",
@@ -141,7 +148,8 @@
         "large": "assets/images/the-sleeping-gypsy/hero-large.jpg"
       },
       "gallery": "assets/images/the-sleeping-gypsy/gallery.jpg"
-    }
+    },
+    "height":"250"
   },
   {
     "name": "Lady with an Ermine",
@@ -159,7 +167,8 @@
         "large": "assets/images/lady-with-an-ermine/hero-large.jpg"
       },
       "gallery": "assets/images/lady-with-an-ermine/gallery.jpg"
-    }
+    },
+    "height":"420"
   },
   {
     "name": "The Night Café",
@@ -177,7 +186,8 @@
         "large": "assets/images/the-night-cafe/hero-large.jpg"
       },
       "gallery": "assets/images/the-night-cafe/gallery.jpg"
-    }
+    },
+    "height":"260"
 },
 {
     "name": "Mona Lisa",
@@ -195,7 +205,8 @@
          "large": "assets/images/mona-lisa/hero-large.jpg"
       },
       "gallery": "assets/images/mona-lisa/gallery.jpg"
-  }
+  },
+  "height":"525"
 },
   {
       "name": "The Basket of Apples",
@@ -213,7 +224,8 @@
             "large": "assets/images/the-basket-of-apples/hero-large.jpg"
         },
         "gallery": "assets/images/the-basket-of-apples/gallery.jpg"
-    }
+    },
+    "height":"430"
 },
 {
     "name": "The Boy in the Red Vest",
@@ -231,7 +243,8 @@
             "large": "assets/images/the-boy-in-the-red-vest/hero-large.jpg"
         },
         "gallery": "assets/images/the-boy-in-the-red-vest/gallery.jpg"
-    }
+    },
+    "height":"260"
 },
 {
     "name": "Arnolfini Portrait",
@@ -249,8 +262,9 @@
           "large": "assets/images/arnolfini-portrait/hero-large.jpg"
         },
         "gallery": "assets/images/arnolfini-portrait/gallery.jpg"
-    }
-},
+    },
+    "height":"330"
+    },
 {
     "name": "The Swing",
   "year": 1767,
@@ -267,6 +281,7 @@
             "large": "assets/images/the-swing/hero-large.jpg"
         },
         "gallery": "assets/images/the-swing/gallery.jpg"
-    }
+    },
+    "height":"340"
 }
 ]
