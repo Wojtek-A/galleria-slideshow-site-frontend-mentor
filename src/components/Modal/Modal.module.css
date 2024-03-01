@@ -1,0 +1,81 @@
+.TriggerButton {
+  width: 152px;
+  height: 39px;
+  display: inline-flex;
+  padding-bottom: 1px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  transition: 250ms;
+}
+.TriggerButton:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.triggerIcon {
+  width: 12px;
+  height: 12px;
+}
+.triggerButtonText {
+  color: var(--text-alternative);
+  opacity: 1;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.143px;
+}
+.CustomModalRoot {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CustomModalBackdrop {
+  z-index: -1;
+  position: fixed;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.8);
+  -webkit-tap-highlight-color: transparent;
+}
+.ModalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modalText {
+  width: 63px;
+  margin: 0 0 33px auto;
+  text-align: end;
+  color: var(--text-alternative);
+}
+.modalText:hover {
+  cursor: pointer;
+}
+
+.modalPainting {
+  max-width: 327px;
+}
+
+@media screen and (min-width: 768px) {
+  .TriggerButton {
+    top: 504px;
+  }
+  .modalText {
+    margin-bottom: 41px;
+  }
+  .modalPainting {
+    max-width: 688px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .modalPainting {
+    max-width: 1360px;
+  }
+}

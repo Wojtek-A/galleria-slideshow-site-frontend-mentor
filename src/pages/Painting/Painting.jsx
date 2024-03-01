@@ -1,6 +1,6 @@
 import css from './Painting.module.css';
 import useScreenSize from '../../hooks/useScreenSize';
-import { UseModal } from '../../components/Modal/Modal';
+import { Modal } from '../../components/Modal/Modal';
 import { usePaintingNr } from '../../paintingContex';
 import { Footer } from '../../components/Footer/Footer';
 
@@ -18,7 +18,7 @@ export const Painting = () => {
     <>
       <section>
         <div className={css.paintingPage}>
-          <UseModal />
+          <Modal />
           <div className={css.headingsBox}>
             <h1 className={css.headingName}>{data.name}</h1>
             <h3 className={css.headingArtist}>{data.artist.name}</h3>
